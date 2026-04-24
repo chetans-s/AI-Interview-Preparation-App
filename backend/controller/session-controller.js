@@ -31,7 +31,7 @@ export const createSession = async (req, res) => {
           isPinned: q.isPinned || false,
         });
         return question._id;
-      }),
+      })
     );
 
     // Update session with question IDs
